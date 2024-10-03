@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Página de Inicio</title>
+  <style>
+    .message-container {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 24px;
+      color: #ff69b4; /* Color rosado */
+    }
+
+    .button-container {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    #btn-main-action {
+      padding: 15px 30px;
+      background-color: #ff69b4; /* Color rosado */
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+
+    #btn-main-action:hover {
+      background-color: #ff1493; /* Color rosado más oscuro al hacer hover */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Contenedor del mensaje -->
+  <div class="message-container">
+    <p>Para ti mi amor con mucho cariño 💖</p>
+  </div>
+
+  <!-- Contenedor del botón -->
+  <div class="button-container">
+    <button id="btn-main-action" onclick="goToFlowers()">PRESIONA AQUÍ</button>
+  </div>
+
+  <script>
+    function goToFlowers() {
+      window.location.href = 'flowers.html'; // Redirigir a flowers.html
+    }
+  </script>
+
+</body>
+</html>
